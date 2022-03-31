@@ -19,6 +19,7 @@ awsauth = AWS4Auth(credentials.access_key, credentials.secret_key, region, servi
 headers = { "Content-Type": "application/json" }
 
 def lambda_handler(event, context):
+    print(event)
     # rep = requests.get(host)
     # print(rep)
 
